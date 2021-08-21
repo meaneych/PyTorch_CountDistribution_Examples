@@ -28,4 +28,4 @@ Comprehensive textbook coverage on mixed Poisson distributions (and associated r
     http://cameron.econ.ucdavis.edu/racd/count.html  
     https://onlinelibrary.wiley.com/doi/book/10.1002/0471715816  
 
-**WARNING** only three of the six functions/scripts created above are working. I am still trying to get the PIG, SICHEL and DEL scripts to work in PyTorch.
+**WARNING** only three of six functions/scripts above are working. I am still trying to get the PIG, SICHEL and DEL scripts to work in PyTorch.
