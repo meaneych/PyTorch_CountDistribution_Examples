@@ -17,13 +17,13 @@ Additional details on GAMLSS and the count data distributions under consideratio
     https://cran.r-project.org/web/packages/gamlss/index.html
     https://github.com/cran/gamlss.dist
 
-Additional theory related to these particular count data distributions can be obtained on pages 196-198 of the following textbook/manual:
-    http://www.gamlss.com/wp-content/uploads/2013/01/gamlss-manual.pdf
+Additional theory related to these particular count data distributions can be obtained on pages 196-198 of the following textbook/manual:  
+    http://www.gamlss.com/wp-content/uploads/2013/01/gamlss-manual.pdf  
 
-Selected peer-reviewed papers discussing count data models/distributions include:
-    https://www.sciencedirect.com/science/article/abs/pii/S0167947308003861
-    https://www.jstor.org/stable/pdf/25472639.pdf?refreqid=excelsior%3A7c3353002761ea873ca29c754b128596
+Selected peer-reviewed papers discussing count data models/distributions include:  
+    https://www.sciencedirect.com/science/article/abs/pii/S0167947308003861  
+    https://www.jstor.org/stable/pdf/25472639.pdf?refreqid=excelsior%3A7c3353002761ea873ca29c754b128596  
 
-Comprehensive textbook coverage on mixed Poisson distributions are given in Cameron and Trivedi (Chapter 4) and/or Johnson and Kotz (Chapter 8):
-    http://cameron.econ.ucdavis.edu/racd/count.html
-    https://onlinelibrary.wiley.com/doi/book/10.1002/0471715816
+Comprehensive textbook coverage on mixed Poisson distributions are given in Cameron and Trivedi (Chapter 4) and/or Johnson and Kotz (Chapter 8):  
+    http://cameron.econ.ucdavis.edu/racd/count.html  
+    https://onlinelibrary.wiley.com/doi/book/10.1002/0471715816  
