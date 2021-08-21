@@ -13,9 +13,9 @@ In particular, the six classes of count regression models considered are listed 
 
 We illustrate our examples using a toy dataset where the response/target variable represents the "number of fish in a lake" (a count random variable), and the single continuous predictor of interest is the "volume of the lake". The dataset can be obtained from the R gamlss/gamlss.dist packages. The results of these toy count regression models are packaged in 6 separate IPYNB files (Jupyter Notebooks). In addition to the results obtained from fitting these models via SGD/AutoGrad in PyTorch, we also fit the models in R using the gamlss package and compare resulting parameter estimates. 
 
-Additional details on GAMLSS and the count data distributions under consideration can be obtained at:
-    https://cran.r-project.org/web/packages/gamlss/index.html
-    https://github.com/cran/gamlss.dist
+Additional details on GAMLSS and the count data distributions under consideration can be obtained at:  
+    https://cran.r-project.org/web/packages/gamlss/index.html  
+    https://github.com/cran/gamlss.dist  
 
 Additional theory related to these particular count data distributions can be obtained on pages 196-198 of the following textbook/manual:  
     http://www.gamlss.com/wp-content/uploads/2013/01/gamlss-manual.pdf  
