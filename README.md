@@ -1,16 +1,17 @@
 # PyTorch_CountDistribution_Examples
 
 This repository contains examples illustrating how to fit various count regression models via AutoGrad/SGD using PyTorch.
-In particular, the six classes of count regression models considered include:
+
+In particular, the six classes of count regression models considered are listed below. The models are useful for fitting count regression models, when the outcome of interest displays over-dispersion (i.e. V(Y)>E(Y)); a standard assumption of the Poisson model.
+
 1. Poisson regression
 2. Negative Binomial 1 (NB1) regression
 3. Negative Binomial 2 (NB2) regression
 4. Poisson Inverse Gaussian regression
 5. Sichel regression
 6. Delaporte regression
-The models are useful for fitting count regression models, when the outcome of interest displays over-dispersion (i.e. V(Y)>E(Y)); a standard assumption of the Poisson model.
 
-We illustrate our examples using a toy dataset where the response/target variable represents the number of fish in a lake (a count random variable), and the single continuous predictor of interest is the volume of the lake. The dataset can be obtained from the R gamlss/gamlss.dist packages. The results of these toy count regression models are packaged in 6 separate IPYNB files (Jupyter Notebooks). In addition to the results obtained from fitting these models via SGD/AutoGrad in PyTorch, we also fit the models in R using the gamlss package and compare resulting parameter estimates. 
+We illustrate our examples using a toy dataset where the response/target variable represents the "number of fish in a lake" (a count random variable), and the single continuous predictor of interest is the "volume of the lake". The dataset can be obtained from the R gamlss/gamlss.dist packages. The results of these toy count regression models are packaged in 6 separate IPYNB files (Jupyter Notebooks). In addition to the results obtained from fitting these models via SGD/AutoGrad in PyTorch, we also fit the models in R using the gamlss package and compare resulting parameter estimates. 
 
 Additional details on GAMLSS and the count data distributions under consideration can be obtained at:
 https://cran.r-project.org/web/packages/gamlss/index.html
