@@ -4,12 +4,12 @@ This repository contains examples illustrating how to fit various count regressi
 
 In particular, the six classes of count regression models considered are listed below. The models are useful for fitting count regression models, when the outcome of interest displays over-dispersion (i.e. V(Y)>E(Y)); i.e. violating a standard assumption of the traditional Poisson model.
 
-1. Poisson regression
-2. Negative Binomial 1 (NB1) regression
-3. Negative Binomial 2 (NB2) regression
-4. Poisson Inverse Gaussian regression
-5. Sichel regression
-6. Delaporte regression
+1. Poisson regression (working)
+2. Negative Binomial 1 (NB1) regression (working)
+3. Negative Binomial 2 (NB2) regression (working)
+4. Poisson Inverse Gaussian regression (issue with loss function)
+5. Sichel regression (issue with loss function; also need to develop torch.special.kv() module).
+6. Delaporte regression (issue with loss function)
 
 We illustrate our examples using a toy dataset where the response/target variable represents the "number of fish species in a lake" (a count random variable), and the single continuous predictor/feature of interest is the "volume of the lake". The dataset can be obtained from the R gamlss/gamlss.dist packages (it is called species.csv in this repository). The results obtained from fitting the various count regression models to the species.csv data are packaged into 6 separate IPYNB files (Jupyter Notebooks). We compare the parameter estimates obtained from fitting the various regression models using PyTorch AutoGrad/SGD versus those obtained from fitting equivalent models using the R gamlss package (noting that different/second-order estimation routines are used by R- i.e the RS method). 
 
